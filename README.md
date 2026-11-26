@@ -1,5 +1,9 @@
 # Nano Squid
 
+<p align="center">
+    <img src="./nano_squid.svg" alt="NanoSquid logo" width="200">
+</p>
+
 Simple configuration for nano if you don't have the nanorc file
 
 ## Install with one command
