@@ -1,0 +1,7 @@
+set autoindent
+set brackets ""')>]}"
+set linenumbers
+set mouse
+set indicator
+include "/usr/share/nano/*.nanorc"
+
