@@ -2,8 +2,8 @@
 set -e
 
 squid(){
-	FILE="$HOME/.nanorc"
-	URL=""
+	local FILE="$HOME/.nanorc"
+	local URL="https://raw.githubusercontent.com/Qwerty3341/NanoSquid/refs/heads/main/nano_config.txt"
 
 	# Check if the user already have the nanorc
 	if [ -f "$FILE" ]; then
@@ -12,8 +12,7 @@ squid(){
 	fi
 
 	# Install configuration for nano
-
-	curl
+	curl -fsSL "$URL" -o "$FILE"
 
 	printf "New configuration for nano:\n\n"
 	cat "$FILE"
